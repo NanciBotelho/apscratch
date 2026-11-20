@@ -1,0 +1,18 @@
+[
+  {"name": "challenge_title", "type": "text/plain"},
+  {"name": "guide_url", "type": "URL"},
+  {"name": "starter_project_url", "type": "URL"},
+  {"name": "deadline", "type": "text/plain"},
+  {"name": "allow_multiple_submissions", "type": "boolean"},
+  {"name": "max_submissions", "type": "integer"},
+  {"name": "requires_events", "type": "boolean"},
+  {"name": "requires_motion", "type": "boolean"},
+  {"name": "requires_added_costumes", "type": "boolean"},
+  {"name": "requires_added_backdrops", "type": "boolean"},
+  {"name": "requires_loops", "type": "boolean"},
+  {"name": "requires_conditionals", "type": "boolean"},
+  {"name": "requires_variables", "type": "boolean"},
+  {"name": "requires_broadcasts", "type": "boolean"},
+  {"name": "requires_operators", "type": "boolean"},
+  {"name": "requires_sensing", "type": "boolean"}
+]

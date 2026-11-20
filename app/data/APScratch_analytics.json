@@ -1,0 +1,33 @@
+{
+  "qualAnalytics": [
+    {"name": "project_url", "type": "URL"},
+    {"name": "analysis_report_url", "type": "URL"}
+  ],
+  "quantAnalytics": [
+    {"name": "accessed_activity", "type": "boolean"},
+    {"name": "submitted_project", "type": "boolean"},
+    {"name": "num_submissions", "type": "integer"},
+    {"name": "used_events", "type": "boolean"},
+    {"name": "events_correct", "type": "boolean"},
+    {"name": "used_motion", "type": "boolean"},
+    {"name": "added_costumes", "type": "boolean"},
+    {"name": "added_backdrops", "type": "boolean"},
+    {"name": "used_loops", "type": "boolean"},
+    {"name": "loops_correct", "type": "boolean"},
+    {"name": "used_conditionals", "type": "boolean"},
+    {"name": "conditionals_correct", "type": "boolean"},
+    {"name": "used_variables", "type": "boolean"},
+    {"name": "variables_correct", "type": "boolean"},
+    {"name": "used_broadcasts", "type": "boolean"},
+    {"name": "num_broadcasts", "type": "integer"},
+    {"name": "broadcasts_correct", "type": "boolean"},
+    {"name": "used_operators", "type": "boolean"},
+    {"name": "used_sensing", "type": "boolean"},
+    {"name": "sensing_correct", "type": "boolean"},
+    {"name": "required_concepts_met", "type": "integer"},
+    {"name": "all_required_concepts_met", "type": "boolean"},
+    {"name": "submitted_on_time", "type": "boolean"},
+    {"name": "minutes_to_first_submission", "type": "integer"},
+    {"name": "minutes_to_last_submission", "type": "integer"}
+  ]
+}

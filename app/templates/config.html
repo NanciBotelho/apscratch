@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <div id="apscratch-config">
+      {% for param in params %}
+        <p>
+          <label for="{{ param.name }}">{{ param.name }}</label>
+          {% if param.type == "boolean" %}
+            <select id="{{ param.name }}" name="{{ param.name }}">
+              <option value="false">Não</option>
+              <option value="true">Sim</option>
+            </select>
+          {% elif param.type == "integer" %}
+            <input type="number" id="{{ param.name }}" name="{{ param.name }}" min="1" value="1">
+          {% elif param.type == "URL" %}
+            <input type="url" id="{{ param.name }}" name="{{ param.name }}">
+          {% else %}
+            <input type="text" id="{{ param.name }}" name="{{ param.name }}">
+          {% endif %}
+        </p>
+      {% endfor %}
+    </div>
+</html>
